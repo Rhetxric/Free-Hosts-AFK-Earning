@@ -19,11 +19,11 @@ A Python script that uses the Selenium library to open a web page and periodical
 ## Usage
 
 1. Modify the path to the Browser executable in the code. Make sure the path is correct for your Browser installation.
-   ```
+   ```python
    options.binary_location = "C:\\Program Files\\Browser\\Browser\\Application\\browser.exe"
    ```  
 2. Run the Python script using the following command:
-   ```
+   ```python
    python afk.py
    ```
 3. Login in discord with your account (I recommend using the QR from mobile device).
