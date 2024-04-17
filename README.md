@@ -6,6 +6,7 @@ A Python script that uses the Selenium library to open a web page and periodical
 - Python 3.x
 - Selenium library
 - Chromium based Browser
+- Chromedriver
 
 ## Installation
 
@@ -15,6 +16,8 @@ A Python script that uses the Selenium library to open a web page and periodical
    pip install selenium
    ```
 3. Make sure you have a Chromium based Browser installed on your system.
+4. Check your Browser Chromium version in settings
+5. Check for availability and [download](https://googlechromelabs.github.io/chrome-for-testing)
 
 ## Usage
 
