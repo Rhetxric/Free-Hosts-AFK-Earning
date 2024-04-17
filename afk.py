@@ -3,7 +3,10 @@ from selenium import webdriver
 
 def refresh_page(url):
     
+    # Browser options
     options = webdriver.ChromeOptions()
+
+    # Browser path
     options.binary_location = "C:\\Program Files\\BrowserSoftware\\Browser\\Application\\browser.exe"
 
     # Start the browser
