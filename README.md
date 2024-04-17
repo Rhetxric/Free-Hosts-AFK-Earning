@@ -11,7 +11,7 @@ A Python script that uses the Selenium library to open a web page and periodical
 
 1. Ensure that you have Python 3.x installed on your system.
 2. Install the Selenium library by running the following command:
-   ```
+   ```python
    pip install selenium
    ```
 3. Make sure you have a Chromium based Browser installed on your system.
