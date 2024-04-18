@@ -16,7 +16,7 @@ A Python script that uses the Selenium library to open a web page and periodical
    pip install selenium
    ```
 3. Make sure you have a Chromium based Browser installed on your system.
-4. Check your Browser Chromium version in your Browser settings or writing [`chrome://version`](http://chrome://version) in the url.
+4. Check your Browser Chromium version in your Browser settings or writing [`chrome://version`](chrome://version) in the url.
 5. Check for availability and [download](https://googlechromelabs.github.io/chrome-for-testing).
 
 ## Config
