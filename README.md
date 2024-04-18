@@ -20,13 +20,13 @@ A Python script that uses the Selenium library to open a web page and periodical
 5. Check for availability and [download](https://googlechromelabs.github.io/chrome-for-testing).
 
 ## Config
-1. `browserLocation = "write/here/your/browser/disk/location"`
+1. `browserLocation = "write/here/your/browser/disk/location"`\n
    _You can find that in `chrome://version` page_.
-2. `waitingTime = numberOfSeconds`
+2. `waitingTime = numberOfSeconds`\n
    _Change according to your need_.
-3. `hostUrlAfk = "https://urlOfTheHost.com/afk"`
+3. `hostUrlAfk = "https://urlOfTheHost.com/afk"`\n
    _You must leave `https://` and `/afk - /earn` at the end based on the suffix left by the host_.
-4. `authorizeLang = "AuthorizeWord"`
+4. `authorizeLang = "AuthorizeWord"`\n
    _Translate this word according to your language, for example `it: "Autorizza", fr: "Autorise", gr: "Autorisieren", etc.`_.
 
 ## Usage
