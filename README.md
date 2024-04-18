@@ -16,8 +16,18 @@ A Python script that uses the Selenium library to open a web page and periodical
    pip install selenium
    ```
 3. Make sure you have a Chromium based Browser installed on your system.
-4. Check your Browser Chromium version in your Browser settings.
+4. Check your Browser Chromium version in your Browser settings or writing `chrome://version` in the url.
 5. Check for availability and [download](https://googlechromelabs.github.io/chrome-for-testing).
+
+## Config
+1. browserLocation = "write/here/your/browser/disk/location"
+   _You can find that in `chrome://version` page_
+2. waitingTime = numberOfSeconds
+   _Change according to your need_
+3. hostUrlAfk = "https://urlOfTheHost.com/afk"
+   _You must leave `https://` and `/afk - /earn` at the end based on the suffix left by the host_
+4. authorizeLang = "AuthorizeWord"
+   _Translate this word according to your language, for example `it: "Autorizza", fr: "Autorise", gr: "Autorisieren", etc.`_
 
 ## Usage
 
